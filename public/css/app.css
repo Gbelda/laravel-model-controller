@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: gray;
+  min-height: 100vh;
+}
+
+main .head_title {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+main .content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+main .content .card {
+  width: 20%;
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 2rem;
+  border: 1px solid black;
+  min-height: 230px;
+}
+
